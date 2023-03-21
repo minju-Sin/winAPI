@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "종료",IDCANCEL,237,47,50,14
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "더하기",ID_BUTTON_PLUS,69,62,50,14
+    DEFPUSHBUTTON   "빼기",ID_BUTTON_MINUS,163,63,50,14
+    DEFPUSHBUTTON   "종료하기",ID_BUTTON_END,117,134,50,14
+    EDITTEXT        IDC_EDIT_SECOND,161,32,130,23,ES_AUTOHSCROLL
+    LTEXT           "두번째 숫자 입력",IDC_STATIC,165,18,110,10
+    LTEXT           "첫번째 숫자 입력",IDC_STATIC,33,19,110,10
+    EDITTEXT        IDC_EDIT_FIRST,25,33,130,23,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "곱하기",ID_BUTTON_POW,70,83,50,14
+    DEFPUSHBUTTON   "나누기",ID_BUTTON_SKSNRL,164,83,50,14
+    EDITTEXT        IDC_EDIT_ANSWER,97,101,130,23,ES_AUTOHSCROLL
+    LTEXT           "답",IDC_STATIC,83,106,10,10
+END
+
+IDD_DIALOG6_4 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_SOURCE,81,30,143,25,ES_AUTOHSCROLL
+    PUSHBUTTON      "복사하기",IDC_BUTTON_COPY,81,70,50,14
+    PUSHBUTTON      "삭제하기",IDC_BUTTON_EDIT,171,71,50,14
+    EDITTEXT        IDC_EDIT_COPY,83,100,137,30,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "종료하기",IDC_BUTTON_END,132,144,50,14
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "종료하기",IDEND,127,144,50,14
+    PUSHBUTTON      "더하기",IDPLUS,83,58,50,14
+    PUSHBUTTON      "곱하기",IDPOW,83,83,50,14
+    PUSHBUTTON      "빼기",IDMIN,157,57,50,14
+    PUSHBUTTON      "나누기",IDNA,154,81,50,14
+    EDITTEXT        IDC_EDIT1,52,38,76,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,158,39,67,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,75,123,149,12,ES_AUTOHSCROLL
+    LTEXT           "첫 번째 숫자",IDC_STATIC,53,23,62,10
+    LTEXT           "두 번째 숫자",IDC_STATIC,155,21,62,10
+    LTEXT           "답",IDC_STATIC,59,126,13,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG6_4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG6_4 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "대화상자"
+    BEGIN
+        MENUITEM "1번문제",                        ID_1
+        MENUITEM "2번문제",                        ID_40009
+    END
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
